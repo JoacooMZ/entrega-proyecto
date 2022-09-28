@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {text-align: center;
+}
+
+
+h3{background-color:rgba(235, 42, 42, 0.651);
+color: white;
+text-align: center;
+padding: 5%;
+font-size: 60px;
+
+
+}
+
+
+article p{
+    font-size: 20rem;
+
+    text-align: center;
+    background-color: rgb(219, 151, 141)
+
+
+}
+
+
+
+
+ul{list-style:none;}
+
+
+header{background-color: rgba(110, 12, 12, 0.651);
+color: white;
+padding: 15px;
+
+}
+
+header nav{width: 50%;}
+
+header{display: flex;
+    text-decoration: none;
+justify-content:space-between;
+align-items: center;
+background-color:rgba(181, 70, 233, 0.233);}
+
+
+
+li a{ color:black ;
+    font-size: 15px;
+
+}
+
+header ul{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+/* --portada-- */
+
+/* .portada{
+/* background-image: url(../assets/ganesha.jpg);
+width: 60vh;
+    height: 70vh;
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content:center; */
+
+
+h2{ text-align: center; 
+    justify-content: center;
+    font-size: 20px;
+
+    }
+
+
+.parrafo{
+text-align: center;
+font-size: 100px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.productos{
+    background-color:rgba(25, 44, 95, 0.651);
+    color: gold;
+    margin: 0%;
+    padding: 10%;
+    border-radius:none;
+    align-items: center;
+
+    
+}
+
+.sahumerio{
+    width: 200px;
+    height: 200px;
+border: solid 3px rgba(224, 223, 152, 0.493);
+background-image: auto;
+border-radius: 10%;
+align-items: center;
+background-size: cover;
+
+
+
+}
+
+.sahumerios{
+margin-top: 10vh;
+text-align: center;
+}
+
+
+
+
+.hornito{
+    width: 200px;
+    height: 200px;
+border: solid 3px rgba(224, 223, 152, 0.493);
+align-content: flex-start;
+text-align: center;
+border-radius: 10%;
+
+}
+
+.horno{
+text-align: center;
+margin-top: 10vh;
+bottom:auto;
+}
+
+
+
+
+
+.aceites{width: 200px;
+    height: 200px;
+border: solid 3px rgba(224, 223, 152, 0.493);
+align-content: flex-start;
+border-radius: 10%;
+
+}
+
+
+
+.aceite{ text-align: center;
+    margin-top: 10vh;
+
+
+}
+
+.vela{
+    text-align: center;
+    margin-top: 10vh;
+    
+}
+
+.velas{
+    width: 200px;
+    height: 200px;
+border: solid 3px rgba(224, 223, 152, 0.493);
+align-content: flex-start;
+border-radius: 10%;
+
+}
+
+
+
+
+
+.sobre-nosotros{
+    text-align: center;
+background-color: rgba(230, 74, 152, 0.555); 
+color: white;   
+font-size: 30px;
+padding: 30%
+
+}
+
+
+
+.facebook_logo{
+
+    width: 120px;
+    height: 120px;
+}
+
+.instagram_logo{
+
+    width: 120px;
+height: 120px;    
+
+}
+
+.gmail_logo{
+
+    width: 50px;
+    height: 50px;
+text-align: center;
+}
+
+
+
+.nombre-usuario{
+padding: 1%;
+background-color: beige;
+
+}
+
+
+.correo{
+
+    padding: 1%;
+background-color: beige;
+}
+
+.numero{
+    padding: 1%;
+background-color: beige;
+}
+
+.consulta{
+    padding: 1%;
+    background-color: beige;
+}
+
+.email{
+    padding: 1%;
+background-color: beige;
+}
+
+
+
+.footer{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,;
+    padding: 10rem;
+    border: 30px;
+    margin:8px;
+
+}
+
+

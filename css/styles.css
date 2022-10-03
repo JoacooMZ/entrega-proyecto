@@ -99,6 +99,18 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 
+
+
+.btn:hover{
+    transform: rotate(4deg);
+    border: 2px rgba(119, 23, 23, 0.801);
+    background-color: rgba(188, 28, 202, 0.795);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+
 .productos{
     background-color:rgba(25, 44, 95, 0.651);
     color: gold;
@@ -106,6 +118,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10%;
     border-radius:none;
     align-items: center;
+
+
+    
+        
+    
 
     
 }
@@ -120,8 +137,8 @@ align-items: center;
 background-size: cover;
 
 
-
 }
+
 
 .sahumerios{
 margin-top: 10vh;

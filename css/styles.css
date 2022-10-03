@@ -101,8 +101,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
 
-.btn:hover{
-    transform: rotate(4deg);
+.btn{
+   
     border: 2px rgba(119, 23, 23, 0.801);
     background-color: rgba(188, 28, 202, 0.795);
     color: white;
@@ -110,6 +110,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px 15px;
 }
 
+.btn:hover{
+    transform: rotate(4deg);
+}
 
 .productos{
     background-color:rgba(25, 44, 95, 0.651);

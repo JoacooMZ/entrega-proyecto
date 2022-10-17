@@ -1,287 +1,220 @@
-*{
-    margin: 0%;
-    padding: 0%;    
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+header nav {
+  width: 50%;
 }
 
-
-
-header {text-align: center;
+.nombre-usuario {
+  padding: 1%;
+  background-color: beige;
 }
 
-
-h3{background-color:rgba(235, 42, 42, 0.651);
-color: white;
-text-align: center;
-padding: 5%;
-font-size: 60px;
-
-
+A:link {
+  text-decoration: none;
 }
 
-
-article p{
-    font-size: 20rem;
-
-    text-align: center;
-    background-color: rgb(219, 151, 141)
-
-
+.correo {
+  padding: 1%;
+  background-color: beige;
 }
 
-
-
-
-ul{list-style:none;}
-
-
-header{background-color: rgba(110, 12, 12, 0.651);
-color: white;
-padding: 15px;
-
+.numero {
+  padding: 1%;
+  background-color: beige;
 }
 
-header nav{width: 50%;}
-
-header{display: flex;
-    text-decoration: none;
-justify-content:space-between;
-align-items: center;
-background-color:rgba(181, 70, 233, 0.233);}
-
-
-
-li a{ color:black ;
-    font-size: 15px;
-
+.consulta {
+  padding: 1%;
+  background-color: beige;
 }
 
-header ul{ 
-    display: flex;
-    justify-content: space-around;
+.contacto {
+  color: white;
 }
 
-
-
-
-
-
-
-
-
-
-/* --portada-- */
-
-/* .portada{
-/* background-image: url(../assets/ganesha.jpg);
-width: 60vh;
-    height: 70vh;
-background-position: center;
-background-size: cover;
-display: flex;
-justify-content:center; */
-
-
-h2{ text-align: center; 
-    justify-content: center;
-    font-size: 30px;
-
-    }
-
-
-.parrafo{
-text-align: center;
-font-size: 60px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.btn {
+  border: 2px rgba(119, 23, 23, 0.801);
+  background-color: rgba(188, 28, 202, 0.795);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
 }
 
-
-
-
-
-
-.btn{
-    border: 2px rgba(119, 23, 23, 0.801);
-    background-color: rgba(188, 28, 202, 0.795);
-    color: white;
-    border-radius: 10px;
-    padding: 10px 15px;
+.btn:hover {
+  transform: rotate(4deg);
 }
 
-.btn:hover{
-    transform: rotate(4deg);
+.productos {
+  background-color: rgba(25, 44, 95, 0.651);
+  color: gold;
+  margin: 0%;
+  padding: 10%;
+  border-radius: none;
+  align-items: center;
 }
 
-.productos{
-    background-color:rgba(25, 44, 95, 0.651);
-    color: gold;
-    margin: 0%;
-    padding: 10%;
-    border-radius:none;
-    align-items: center;
-
-
-    
-        
-    
-
-    
+A:link {
+  text-decoration: none;
 }
 
-.sahumerio{
-    width: 200px;
-    height: 200px;
-border: solid 3px rgba(224, 223, 152, 0.493);
-background-image: auto;
-border-radius: 10%;
-align-items: center;
-background-size: cover;
-
-
+.sahumerio {
+  width: 200px;
+  height: 200px;
+  border: solid 3px rgba(224, 223, 152, 0.493);
+  background-image: auto;
+  border-radius: 10%;
+  align-items: center;
+  background-size: cover;
 }
 
-
-.sahumerios{
-margin-top: 10vh;
-text-align: center;
+.sahumerios {
+  margin-top: 10vh;
+  text-align: center;
 }
 
-
-
-
-.hornito{
-    width: 200px;
-    height: 200px;
-border: solid 3px rgba(224, 223, 152, 0.493);
-align-content: flex-start;
-text-align: center;
-border-radius: 10%;
-
+.hornito {
+  width: 200px;
+  height: 200px;
+  border: solid 3px rgba(224, 223, 152, 0.493);
+  align-content: flex-start;
+  text-align: center;
+  border-radius: 10%;
 }
 
-.horno{
-text-align: center;
-margin-top: 10vh;
-bottom:auto;
+.horno {
+  text-align: center;
+  margin-top: 10vh;
+  bottom: auto;
 }
 
-
-
-
-
-.aceites{width: 200px;
-    height: 200px;
-border: solid 3px rgba(224, 223, 152, 0.493);
-align-content: flex-start;
-border-radius: 10%;
-
+.aceites {
+  width: 200px;
+  height: 200px;
+  border: solid 3px rgba(224, 223, 152, 0.493);
+  align-content: flex-start;
+  border-radius: 10%;
 }
 
-
-
-.aceite{ text-align: center;
-    margin-top: 10vh;
-
-
+.aceite {
+  text-align: center;
+  margin-top: 10vh;
 }
 
-.vela{
-    text-align: center;
-    margin-top: 10vh;
-    
+.vela {
+  text-align: center;
+  margin-top: 10vh;
 }
 
-.velas{
-    width: 200px;
-    height: 200px;
-border: solid 3px rgba(224, 223, 152, 0.493);
-align-content: flex-start;
-border-radius: 10%;
-
+.velas {
+  width: 200px;
+  height: 200px;
+  border: solid 3px rgba(224, 223, 152, 0.493);
+  align-content: flex-start;
+  border-radius: 10%;
 }
 
-
-
-
-
-.sobre-nosotros{
-    text-align: center;
-background-color: rgba(230, 74, 152, 0.555); 
-color: white;   
-font-size: 30px;
-padding: 30%
-
+h3 {
+  background-color: rgba(235, 42, 42, 0.651);
+  color: white;
+  text-align: center;
+  padding: 1%;
+  font-size: 60px;
 }
 
-
-
-.facebook_logo{
-
-    width: 120px;
-    height: 120px;
+A:link {
+  text-decoration: none;
 }
 
-.instagram_logo{
-
-    width: 120px;
-height: 120px;    
-
+.facebook_logo {
+  width: 120px;
+  height: 120px;
 }
 
-.gmail_logo{
-
-    width: 50px;
-    height: 50px;
-text-align: center;
+.instagram_logo {
+  width: 120px;
+  height: 120px;
 }
 
-
-
-.nombre-usuario{
-padding: 1%;
-background-color: beige;
-
+.sobre-nosotros {
+  text-align: center;
+  background-color: rgba(230, 74, 152, 0.555);
+  color: white;
+  font-size: 30px;
+  padding: 30%;
 }
 
-
-.correo{
-
-    padding: 1%;
-background-color: beige;
+.footer {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10rem;
+  border: 10px;
+  margin-top: auto;
 }
 
-.numero{
-    padding: 1%;
-background-color: beige;
+.bg-azul {
+  background-color: blueviolet;
 }
 
-.consulta{
-    padding: 1%;
-    background-color: beige;
+.c-white {
+  color: white;
 }
 
-.email{
-    padding: 1%;
-background-color: beige;
+.footer-redes {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10rem;
+  border: 10px;
+  margin-top: auto;
 }
 
+.footer-contacto {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10rem;
+  border: 10px;
+  margin-top: auto;
+}
 
+header {
+  text-align: center;
+}
 
-.footer{
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,;
-    padding: 10rem;
-    border: 30px;
-    margin:8px;
-    }
+A:link {
+  text-decoration: none;
+}
 
+.parrafo {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    .bg-azul{
-        background-color: blueviolet;
-    }
+header nav {
+  width: 50%;
+}
 
-    .c-white{
-        color: white;
-    }
-    
+ul {
+  list-style: none;
+}
+
+article p {
+  font-size: 20rem;
+  text-align: center;
+  background-color: rgb(219, 151, 141);
+}
+
+header {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(181, 70, 233, 0.233);
+}
+
+.footer {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10rem;
+  border: 10px;
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

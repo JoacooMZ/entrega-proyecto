@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+}
+A:link {
+    text-decoration: none
+}
+.parrafo {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav {
+    width: 50%;
+}
+
+ul{
+    list-style: none;
+}
+
+article p {
+    font-size: 20rem;
+
+    text-align: center;
+    background-color: rgb(219, 151, 141)
+}
+
+header { display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+background-color: rgba(181, 70, 233, 0.233);
+}
+
+
+
+
+.footer {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, ;
+    padding: 10rem;
+    border: 10px;
+margin-top: auto ;
+}

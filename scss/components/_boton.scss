@@ -1,0 +1,11 @@
+.btn {
+    border: 2px rgba(119, 23, 23, 0.801);
+    background-color: rgba(188, 28, 202, 0.795);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+    transform: rotate(4deg);
+}

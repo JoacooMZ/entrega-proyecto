@@ -2,6 +2,52 @@ header nav {
   width: 50%;
 }
 
+.footer {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10rem;
+  border: 10px;
+  margin-top: auto;
+}
+
+.bg-azul {
+  background-color: blueviolet;
+}
+
+.c-white {
+  color: white;
+}
+
+.footer-redes {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10rem;
+  border: 10px;
+  margin-top: auto;
+}
+
+.footer-contacto {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10rem;
+  border: 10px;
+  margin-top: auto;
+}
+
+.btn {
+  border: 2px rgba(119, 23, 23, 0.801);
+  background-color: rgba(188, 28, 202, 0.795);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  transition-duration: 2s;
+  transition-property: all;
+}
+
+.btn:hover {
+  transform: rotate(4deg);
+}
+
 .nombre-usuario {
   padding: 1%;
   background-color: beige;
@@ -30,16 +76,34 @@ A:link {
   color: white;
 }
 
-.btn {
-  border: 2px rgba(119, 23, 23, 0.801);
-  background-color: rgba(188, 28, 202, 0.795);
+h3 {
+  background-color: rgba(235, 42, 42, 0.651);
   color: white;
-  border-radius: 10px;
-  padding: 10px 15px;
+  text-align: center;
+  padding: 1%;
+  font-size: 60px;
 }
 
-.btn:hover {
-  transform: rotate(4deg);
+A:link {
+  text-decoration: none;
+}
+
+.facebook_logo {
+  width: 120px;
+  height: 120px;
+}
+
+.instagram_logo {
+  width: 120px;
+  height: 120px;
+}
+
+.sobre-nosotros {
+  text-align: center;
+  background-color: rgba(230, 74, 152, 0.555);
+  color: white;
+  font-size: 30px;
+  padding: 30%;
 }
 
 .productos {
@@ -109,68 +173,6 @@ A:link {
   border: solid 3px rgba(224, 223, 152, 0.493);
   align-content: flex-start;
   border-radius: 10%;
-}
-
-h3 {
-  background-color: rgba(235, 42, 42, 0.651);
-  color: white;
-  text-align: center;
-  padding: 1%;
-  font-size: 60px;
-}
-
-A:link {
-  text-decoration: none;
-}
-
-.facebook_logo {
-  width: 120px;
-  height: 120px;
-}
-
-.instagram_logo {
-  width: 120px;
-  height: 120px;
-}
-
-.sobre-nosotros {
-  text-align: center;
-  background-color: rgba(230, 74, 152, 0.555);
-  color: white;
-  font-size: 30px;
-  padding: 30%;
-}
-
-.footer {
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
-  padding: 10rem;
-  border: 10px;
-  margin-top: auto;
-}
-
-.bg-azul {
-  background-color: blueviolet;
-}
-
-.c-white {
-  color: white;
-}
-
-.footer-redes {
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
-  padding: 10rem;
-  border: 10px;
-  margin-top: auto;
-}
-
-.footer-contacto {
-  text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
-  padding: 10rem;
-  border: 10px;
-  margin-top: auto;
 }
 
 header {

@@ -48,6 +48,16 @@ header nav {
   transform: rotate(4deg);
 }
 
+
+input{
+border-radius: 5px;
+padding: 5px;
+border: 2px;
+background-color: rgba(53, 52, 52, 0.61);
+color: white;
+border-color: black;
+}
+
 .nombre-usuario {
   padding: 1%;
   background-color: beige;

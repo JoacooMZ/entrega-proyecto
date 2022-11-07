@@ -49,13 +49,14 @@ header nav {
 }
 
 
+
 input{
 border-radius: 5px;
 padding: 5px;
 border: 2px;
 background-color: rgba(53, 52, 52, 0.61);
 color: white;
-border-color: black;
+border-color: rgb(5, 4, 4);
 }
 
 .nombre-usuario {
@@ -80,6 +81,7 @@ A:link {
 .consulta {
   padding: 1%;
   background-color: beige;
+  
 }
 
 .contacto {
@@ -101,8 +103,8 @@ A:link {
 .facebook_logo {
   width: 120px;
   height: 120px;
+  
 }
-
 .instagram_logo {
   width: 120px;
   height: 120px;

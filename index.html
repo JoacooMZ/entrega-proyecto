@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content= "Indhira va a ser tu pagina de confianza para el indhuismo">
+    <meta name="description" content="Indhira va a ser tu pagina de confianza para el indhuismo">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
@@ -16,76 +16,100 @@
 
 <body>
     <header>
-        <h1>INDHIRA</h1>
 
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="pages/productos.html">Productos</a>
-                        <a class="nav-link" href="pages/sobre-nosotros.html">Sobre Nosotros</a>
-                        <a class="nav-link" href="pages/contacto-formulario.html">Contacto</a>
-                        <a class="nav-link" href="pages/redes-sociales.html">Redes Sociales</a>
-                    </div>
-                </div>
+        <div class="encabezado">
+            <div class="marca">
+                <a href="./index.html" class="marca_link">
+                    <h1>INDHIRA</h1>
+                </a>
             </div>
-        </nav>
+            <div class="nav">
+                <ul class="nav_ul">
+                    <li id="li"><a class="boton_nav" href="./pages/productos.html">Productos</a></li>
+                    <li id="li"><a class="boton_nav" href="./pages/contacto-formulario.html">Contacto</a></li>
+                    <li id="li"><a class="boton_nav" href="./pages/sobre-nosotros.html">Sobre nosotros</a></li>
+                    <li id="li"><a class="boton_nav" href="./pages/redes-sociales.html">Redes sociales</a></li>
+                </ul>
+            </div>
+        </div>
+
 
 
     </header>
     </div>
 
-    <main>
-        <section class="container-fluid">
-            <img src="./assets/ganesha.jpg" alt="" class="w-50">
-            <!-- <h2>Indhira</h2> -->
-            <div class="parrafo">
-                <p>Aqui vas a encontrar todo lo relacionado al hinduismo</p>
-            </div>
-        </section>
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 " id="imagen_principal">
+                <div class="imagen-portada">
+                    <img src="./assets/ganesha.jpg" alt="" class="imagen_principal">
+                    <!-- <h2>Indhira</h2> -->
+                    <div class="col-12">
+                        <div class="parrafo">
+                            <p>Aqui vas a encontrar todo lo relacionado al hinduismo. Los productos de esta pagina son
+                                100% de calidad</p>
+                        </div>
 
-
-
-
-
-        <footer class="container-fluid bg-azul c-white">
-            <div class="container">
-                <div class="row">
-                    <div class="d-flex flex-column align-items-center p-3 fs-3">
-                        <img src="./assets/ganesha.jpg" alt="" class="w-25">
-                        <span>Indhira.sahumerios@gmail.com</span>
-                        <span>les dejamos nuestro mail por cualquier duda</span>
-                        <span>marca patentada por nosotros </span>
                     </div>
-
-
-
-
-
-
-
-
-
-
                 </div>
             </div>
+            <div class="boton">
+                <a href="./pages/productos.html"> <button class="btn_portada">
 
-        </footer>
+                        VER PRODUCTOS
+                    </button>
+                </a>
+            </div>
+
+
+
+        </div>
+
+    </div>
 
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-            crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <footer class="container-fluid bg-azul c-white">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-column align-items-center p-3 fs-3">
+                    <img src="./assets/ganesha.jpg" alt="" class="w-25">
+                    <span>Indhira.sahumerios@gmail.com</span>
+                    <span>les dejamos nuestro mail por cualquier duda</span>
+                    <span>marca patentada por nosotros </span>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

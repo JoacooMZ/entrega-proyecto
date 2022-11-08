@@ -1,6 +1,4 @@
-header nav {
-  width: 50%;
-}
+
 
 .footer {
   text-align: center;
@@ -47,8 +45,110 @@ header nav {
 .btn:hover {
   transform: rotate(4deg);
 }
+.encabezado {
+  transition-duration: 2s;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.marca {
+  padding: 10px;
+}
+.marca_link{
+text-decoration: none;
+color: blueviolet;
 
 
+}
+.nav_ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+}
+.nav_ul #li {
+  margin-top: 4%;
+  font-weight: bold;
+  animation-name: mover-lista;
+  animation-duration: 1s;
+}
+.nav_ul #li > a {
+  color: rgb(218, 28, 28);
+  text-decoration: none;
+}
+.nav_ul #li > a:hover {
+  color: black;
+  font-size: 15px;
+  transition-duration: 0.5s;
+}
+
+/* #imagen_principal{
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+
+
+#navbar{
+  background-color: aqua;
+  width: 100%;
+
+
+
+}
+
+.img_nosotros{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+  width: 100%;
+
+  }
+
+
+.imagen_principal{
+  width: 550px;
+  
+}
+
+.imagen_portada{
+
+  border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.boton{
+  text-align: center;
+}
+
+.btn_portada{
+  background-color: crimson;
+padding: 5px;
+font-size:larger ;
+}
+
+
+.horarios{
+  text-align: left;
+  font-size: larger;
+  color: aqua
+}
+
+.logos{
+  margin-top: auto;
+}
 
 input{
 border-radius: 5px;
@@ -100,11 +200,25 @@ A:link {
   text-decoration: none;
 }
 
+.link_facebook{
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
 .facebook_logo {
   width: 120px;
   height: 120px;
   
+  
 }
+
+.link_instagram{font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
 .instagram_logo {
   width: 120px;
   height: 120px;
@@ -116,7 +230,10 @@ A:link {
   color: white;
   font-size: 30px;
   padding: 30%;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .productos {
   background-color: rgba(25, 44, 95, 0.651);
@@ -197,7 +314,7 @@ A:link {
 
 .parrafo {
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 

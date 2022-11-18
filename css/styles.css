@@ -1,5 +1,7 @@
 
 
+
+
 .footer {
   text-align: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
@@ -105,6 +107,55 @@ color: blueviolet;
 
 }
 
+.container{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+
+}
+
+.card-facebook{
+  text-align: center;
+
+border-radius: 6px;
+width: 100%;
+margin: 20px;
+overflow: hidden;
+box-shadow: 0px 1px 10px rgba(224, 223, 152, 0.493);
+cursor: default;
+transition: all 400ms ease;
+border-radius: 4px;
+}
+
+
+.card-wp{text-align: center;
+ 
+  border-radius: 6px;
+  width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(224, 223, 152, 0.493);
+  cursor: default;
+  transition: all 400ms ease;
+  border-radius: 4px;}
+
+
+.card-instagram{
+  text-align: center;
+
+border-radius: 6px;
+width: 100%;
+margin: 20px;
+overflow: hidden;
+box-shadow: 0px 1px 10px rgba(224, 223, 152, 0.493);
+cursor: default;
+transition: all 400ms ease;
+border-radius: 4px;
+}
+
+
+
+
 .img_nosotros{
 
   display: flex;
@@ -114,6 +165,10 @@ color: blueviolet;
 
   }
 
+  .nosotros{
+    text-align: center;
+    background-color: beige;
+  }
 
 .imagen_principal{
   width: 550px;
@@ -146,9 +201,7 @@ font-size:larger ;
   color: aqua
 }
 
-.logos{
-  margin-top: auto;
-}
+
 
 input{
 border-radius: 5px;
@@ -166,6 +219,7 @@ border-color: rgb(5, 4, 4);
 
 A:link {
   text-decoration: none;
+  
 }
 
 .correo {
@@ -185,7 +239,7 @@ A:link {
 }
 
 .contacto {
-  color: white;
+  color: black;
 }
 
 h3 {
@@ -198,6 +252,12 @@ h3 {
 
 A:link {
   text-decoration: none;
+}
+
+
+.redes{
+  text-align: center;
+
 }
 
 .link_facebook{
@@ -233,7 +293,10 @@ A:link {
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+.productos-principal{
+  text-align: center;
+  background-color: blueviolet;
+}
 
 .productos {
   background-color: rgba(25, 44, 95, 0.651);
